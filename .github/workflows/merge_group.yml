@@ -1,0 +1,13 @@
+name: Marketplace workflow
+
+on:
+  merge_group:
+    branches: [master]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "HELLOOOO"
